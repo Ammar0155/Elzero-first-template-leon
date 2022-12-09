@@ -43,7 +43,7 @@ html{
 }
 .special-head{
     text-align: center;
-    font-size: 100px;
+    font-size: 5em;
     margin: 0px;
     font-weight: 800;
     color: #ebeced;
@@ -400,6 +400,12 @@ header .links ul li a:hover{
  font-size: 30px;
  text-decoration: none;
  line-height: 1.8;
+}
+@media (max-width:599px) {
+    .contact .info a{
+        font-size: 1em;
+       }
+    
 }
 .contact .info .social{
  display: flex;
